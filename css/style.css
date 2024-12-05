@@ -1,0 +1,175 @@
+:root{
+    --qirmizi: #fd634d;
+    --yasil: #a1c927;
+}
+header{
+    height: 100vh;
+    background: url(/img/headerbg.jpg) 60% 30%/cover;
+    text-align: center;
+    position: relative;
+}
+menu li a{
+    font: bold .8em 'Avenir Next Rounded Std', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+nav, #title{
+    position: absolute;
+    width: 100%;
+}
+#title{
+    bottom: 16vh;
+}
+nav{
+    top: 40px;
+    padding: 0 50px;
+}
+h1,h5{
+    font-family: 'Myriad Pro' ;
+    text-transform: uppercase;
+    color: #fff;
+}
+h1{font-size: 2em;}
+h2 {
+    font: 2em 'Open Sans';
+    text-transform: uppercase
+}
+h3{
+    font: 1.5em "Open Sans";
+}
+h5{
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+h6 {
+    font: .9em Montserrat;
+    text-transform: uppercase;
+}
+/* .resources{
+    padding: 44px 10px;
+    h6{
+        padding: 22px 0 25px;
+        text-transform: initial;
+    }
+} */
+.bgyasil{background-color:  var(--yasil);}
+.bgqirmizi{background-color:  var(--qirmizi);}
+.bgag{background-color: #fff;}
+.bgqara{
+    background-color: #0c1119;
+    padding: 0 0 250px;
+}
+.txtag{color: #fff;}
+.txtyasil{color: var(--yasil);}
+.txtqirmizi{color: var(--qirmizi);}
+.height50 { min-height: 50vh; }
+.artpadding { padding: 54px 38px;}
+.center { text-align: center;} 
+.ftrpad{ padding: 44px 10px;}
+.ftrtext{ 
+    padding: 22px 0 25px;
+    text-transform: initial;
+    font-family: "Open Sans";
+}
+.ftrpad i{
+    font-size: 3em;
+    padding: 0 15px;
+}
+.ifb{color: #2e3092;}
+.itw{color: #00adef;}
+.iyt{color: #ed3123;}
+.iin{color: #16198f;}
+.input{padding: 0 10px;}
+.inp{
+    padding: 20px 10px;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    color: #83969f;
+    margin: 10px 0;
+}
+.btn{
+    background-color: var(--yasil);
+    color: #fff;
+    text-align: left;
+}
+
+#art4{padding: 70px 0;}
+#art4 article{padding: 35px 10px;}
+#art4 article i{font-size: 2.8em;}
+#fitnessfirst{ background: url('../img/fitnessfirst.jpg') center/cover;}
+#yourbody{ background: url('../img/yourbody.jpg') center/cover;}
+#lifestyle{background: url('../img/lifestyle.jpg') center/cover;}
+#summeroffun{background: url('../img/summeroffun.jpg') center/cover;}
+#grape{background: url('../img/grape.jpg') center/cover;}
+#mango{background: url('../img/mango.jpg') center/cover;}
+#bigideas{
+    background: url('../img/bigideas.jpg') center/cover;
+    height: 100vh;
+    width: 100%;
+    padding: 176px 10px;
+    background-attachment: fixed;
+}
+#bigideas h2{
+    padding: 88px 0 20px;
+}
+@media only screen and (min-width: 768px) {
+    .container{
+        max-width: 1180px;
+        margin: auto;
+    }
+    h1 { font-size: 2.5em; }
+    h5 { padding: 0 20px 0 0 ;}
+    header{
+        text-align: initial;
+    }
+    menu{
+        float: right;
+        padding: 10px 0;
+    }
+    menu li{
+        display: inline-block;
+        padding: 0 2vw;
+    }
+    #title{
+        left: 115px;
+        width: initial;
+        text-align: right;
+    }
+    .row::after{
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .fleft{ float: left;}
+    .fright{ float: right;}
+    .col25{width: 25%;}
+    .col33{width: 33.33%;}
+    .col66{width: 66.66%;}
+    .bgqara .container{
+        display: flex;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+    }
+    .ftrpad i{
+        padding: 0 5px;
+    }
+    .ftrpad i:hover{
+        font-size: 3.5em;
+    }
+    .ftinput{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    .input{
+        display: flex;
+        gap: 6px;
+    }
+    .inp{
+        width: 230px;
+    }
+}
